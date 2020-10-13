@@ -31,9 +31,11 @@ namespace Solucion.Consola
                                   "\n 4 - OBTENER BALANCE" +
                                   "\n 5 - MOSTRAR STOCK" +
                                   "\n 6 - EXIT");
+
                 try
                 {
                     int opcion = ConsolaHelper.OpcionMenu(0, 6, "\nIndique la opción a la que desee ingresar: ");
+                    Console.Clear();
 
                     switch (opcion)
                     {
